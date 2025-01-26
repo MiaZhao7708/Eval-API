@@ -1,0 +1,52 @@
+{
+    "judge": "bc_rm_model_judge",
+    "dataset": [
+        {
+            "name": "math",
+            "dir": [
+                "sftv3/math/"
+            ],
+            "score": 2.6
+        },
+        {
+            "name": "code",
+            "dir": [
+                "sftv3/code/sft_codeqa",
+                "sftv3/code/sft_codegen",
+                "sftv2/code/"
+            ],
+            "score": 2.6
+        },
+        {
+            "name": "logic",
+            "dir": [
+                "sftv3/reasoning/sft",
+                "sftv3/reasoning/sys"
+            ],
+            "score": 2.2
+        },
+        {
+            "name": "complicate",
+            "dir": [
+                "sftv3/complex/"
+            ],
+            "score": 2.2
+        },
+        {
+            "name": "qa",
+            "dir": [
+                "knowledge_qa/",
+                "sftv3/sc/",
+                "sftv2/normal/"
+            ],
+            "score": 2.6
+        },
+        {
+            "name": "create",
+            "dir": [
+                "sftv3/writor/"
+            ],
+            "score": 2.4
+        }
+    ]
+}

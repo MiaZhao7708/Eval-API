@@ -1,0 +1,10 @@
+*.pyc
+__pycache__
+nohup.out
+output/
+*.log
+res_eval
+.DS_Store
+data/
+tmp/
+config/api_keys.json

@@ -1,0 +1,41 @@
+{
+    "gpt4-turbo-judgestudent": {"type": "openAI", "server": "47.236.144.103:80", "name": "gpt-4-1106-preview", "temperature": 0.0},
+    "gpt4-turbo-judgesame": {"type": "openAI", "server": "47.236.144.103:80", "name": "gpt-4-1106-preview", "temperature": 0.2},
+    "gpt4-turbo-json": {"type": "openAI", "server": "47.236.144.103:80", "name": "gpt-4-1106-preview", "json_mode": true},
+    "gpt4-vision-preview": {"type": "openAI", "server": "47.236.144.103:80", "name": "gpt-4-vision-preview"},
+    "gpt4-turbo-vision": {"type": "openAI", "server": "47.236.144.103:80", "name": "gpt-4-turbo"},
+    "gpt4-turbo": {"type": "openAI", "server": "47.236.144.103:80", "name": "gpt-4-1106-preview"},
+    "gpt4o-mini": {"type": "openAI", "server": "47.236.144.103:80", "name": "gpt-4o-mini", "json_mode": true},                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+    "gpt4o": {"type": "openAI", "server": "47.236.144.103:80", "name": "gpt-4o"},
+    "4o-mini": {"type": "openAI", "server": "47.236.144.103:80", "name": "gpt-4o-mini-2024-07-18", "json_mode": true},
+    "gpt4-self-ins": {"type": "openAI", "server": "47.236.144.103:80", "name": "gpt-4-1106-preview"},
+    "gpt4-turbo-autojudge": {"type": "openAI", "server": "47.236.144.103:80", "name": "gpt-4-1106-preview", "temperature": 0.5},
+    "gpt4": {"type": "openAI", "server": "47.236.144.103:80", "name": "gpt-4"},
+    "gpt3.5-1106": {"type": "openAI", "server": "47.236.144.103:80", "name": "gpt-3.5-turbo-1106"},
+    "gpt3.5": {"type": "openAI", "server": "47.236.144.103:80", "name": "gpt-3.5-turbo"},
+    
+    "glm4": {"type": "glm", "server": "chatglm.cn", "name": "glm4"},
+    "moonshot": {"type": "moonshot", "server": "kimi.moonshot.cn", "name": "moonshot"},
+
+    "distribution_model": {"type": "BCDocker", "server": "distribution-model.gw-gqqd25no78ncp72xfw-1151584402193309.cn-wulanchabu.pai-eas.aliyuncs.com", "max_new_tokens": 2048, "temperature": 0.3, "top_k": 5, "top_p": 0.85, "repetition_penalty": 1.05, "do_sample": true},
+    "test_model": {"type": "BCDocker", "server": "duplicate-data-generator.gw-gqqd25no78ncp72xfw-1151584402193309.cn-wulanchabu.pai-eas.aliyuncs.com", "do_sample": false, "stream": false, "temperature": 0.01},
+    "bc_duplicate_gen": {"type": "BCDocker", "server": "duplicate-data-generator.gw-gqqd25no78ncp72xfw-1151584402193309.cn-wulanchabu.pai-eas.aliyuncs.com", "temperature": 0.05, "do_sample": true, "top_k": 4, "repetition_penalty": 1.0, "stream": false},
+    "dup_check": {"type": "BCDocker", "server": "duplicate-data-generator.gw-gqqd25no78ncp72xfw-1151584402193309.cn-wulanchabu.pai-eas.aliyuncs.com", "do_sample": true},
+    "bc33b_science": {"type": "BCDocker", "server": "bc33b-3t9-full.gw-gqqd25no78ncp72xfw-1151584402193309.cn-wulanchabu.pai-eas.aliyuncs.com", "do_sample": true},
+    "self_reward": {"type": "BCDocker", "server": "bc177b-3t45-16k-0320-sci-e2.gw-gqqd25no78ncp72xfw-1151584402193309.cn-wulanchabu.pai-eas.aliyuncs.com", "do_sample": true},
+    "bc_self_instruct": {"type": "BCDocker", "server": "bc-self-instruct.gw-gqqd25no78ncp72xfw-1151584402193309.cn-wulanchabu.pai-eas.aliyuncs.com", "temperature": 0.8, "top_k": 50, "top_p": 0.99, "do_sample": true, "max_new_tokens": 8192},
+    "bc_self_instruct_2": {"type": "BCDocker", "server": "duplicate-data-generator.gw-gqqd25no78ncp72xfw-1151584402193309.cn-wulanchabu.pai-eas.aliyuncs.com", "temperature": 0.8, "top_k": 50, "top_p": 0.99, "do_sample": true, "max_new_tokens": 8192},
+    "bc_base_model": {"type": "BCDocker", "server": "bc177b-3t45-16k-0320-sci-e2.gw-gqqd25no78ncp72xfw-1151584402193309.cn-wulanchabu.pai-eas.aliyuncs.com"},
+    "bc_177b_current": {"type": "BCDocker", "server": "bc177b-3t45-sci-v3-e2.gw-gqqd25no78ncp72xfw-1151584402193309.cn-wulanchabu.pai-eas.aliyuncs.com"},
+    "bc_ranker": {"type": "BCDocker", "server": "chat-33b-0117.gw-gqqd25no78ncp72xfw-1151584402193309.cn-wulanchabu.pai-eas.aliyuncs.com", "temperature": 0.4, "do_sample": true},
+    "bc_online_rlhf_no_stream": {"type": "BCDocker", "server": "10.3.1.5:3331", "stream": false, "temperature": 0.01},
+    "bc_test_1215": {"type": "BCDocker", "server": "chat-177b.gw-gqqd25no78ncp72xfw-1151584402193309.cn-wulanchabu.pai-eas.aliyuncs.com", "stream": true, "temperature": 0.2},
+    "bc_test_1215_no_stream": {"type": "BCDocker", "server": "chat-177b.gw-gqqd25no78ncp72xfw-1151584402193309.cn-wulanchabu.pai-eas.aliyuncs.com", "stream": false},
+    "bc_online_current": {"type": "BCDocker", "server": "bc-self-instruct.gw-gqqd25no78ncp72xfw-1151584402193309.cn-wulanchabu.pai-eas.aliyuncs.com", "do_sample": true},
+    "bc_online_eval": {"type": "BCDocker", "server": "chat.gw-gqqd25no78ncp72xfw-1151584402193309.cn-wulanchabu.pai-eas.aliyuncs.com", "max_new_tokens": 512, "temperature": 0.1, "top_k": 20, "top_p": 0.9, "repetition_penalty": 1.05},
+    "bc2_2b": {"type": "BCDocker", "server": "bc2-2b.gw-gqqd25no78ncp72xfw-1151584402193309.cn-wulanchabu.pai-eas.aliyuncs.com", "do_sample": true},
+
+    "qwen1_72b_0125_16k_v5d_im": {"type": "vllm", "server": "qwen2-72b-new.gw-gqqd25no78ncp72xfw-1151584402193309.cn-wulanchabu.pai-eas.aliyuncs.com", "do_sample": true},
+    "qwen1_2b_0125_32k_v5d_im": {"type": "vllm", "server": "qwen2-72b-new.gw-gqqd25no78ncp72xfw-1151584402193309.cn-wulanchabu.pai-eas.aliyuncs.com", "do_sample": true, "timeout": 240}
+    
+}
